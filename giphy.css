@@ -1,0 +1,14 @@
+body {
+    background-color: lightgray;
+}
+
+input {
+    margin: 10px;
+  }
+
+.item {
+    display: inline-block;
+    margin: 1%;
+    animation-play-state: paused;
+}
+  

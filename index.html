@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <title>Giphy</title>
+    <link rel="stylesheet" type="text/css" href="giphy.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Destination Search</h1>
+        <div id="destinations-view"></div>
+
+        <form id="destination-form">
+            <label for="destination-input">Where would you like to go?</label>
+            <input type="text" id="destination-input">
+            <br>
+
+            <!-- Button triggers new destination to be added -->
+            <input id="add-destination" type="submit" value="Submit">
+        </form>
+
+    </div>
+    <div id="gifs-appear-here">
+    
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="pausingGifs.js"></script>
+
+</body>
+
+</html>
